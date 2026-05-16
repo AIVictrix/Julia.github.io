@@ -45,6 +45,7 @@ permalink: /press/
       background: radial-gradient(ellipse at 10% 0%, #fff 0%, var(--bg) 50%, #e9efe9 100%);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
 
     .page {
@@ -88,7 +89,7 @@ permalink: /press/
 
     .header h1 {
       font-family: "Playfair Display", "Fraunces", serif;
-      font-size: 2.4rem;
+      font-size: clamp(1.7rem, 5.5vw, 2.4rem);
       font-weight: 500;
       letter-spacing: -0.01em;
       line-height: 1.1;
@@ -321,13 +322,24 @@ permalink: /press/
     footer a { color: var(--accent); text-decoration: none; }
 
     @media (max-width: 700px) {
-      .header { padding: 32px 24px; }
-      .section { padding: 24px; }
-      .header h1 { font-size: 2rem; }
-      .headshot-grid { grid-template-columns: 1fr; }
-      .contact-grid { grid-template-columns: 1fr; }
-      .bio-block { padding-right: 24px; }
+      .page { padding: 24px 14px 60px; }
+      .header { padding: 28px 22px; }
+      .header .lede { font-size: 0.98rem; }
+      .section { padding: 24px 20px; }
+      .section h2 { font-size: 1.3rem; }
+      .section h2 .count { display: block; margin-left: 0; margin-top: 4px; }
+      .headshot-grid { grid-template-columns: 1fr; gap: 16px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 14px; }
+      .bio-block { padding: 18px 20px; padding-right: 20px; font-size: 0.95rem; }
       .copy-btn { position: static; display: inline-block; margin-top: 12px; }
+      .pdf-row { padding: 16px 20px; }
+      .citation { font-size: 0.9rem; }
+    }
+
+    @media (max-width: 380px) {
+      .page { padding: 20px 12px 50px; }
+      .header { padding: 24px 18px; }
+      .section { padding: 22px 18px; }
     }
   </style>
 </head>

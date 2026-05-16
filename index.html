@@ -45,6 +45,7 @@
       background: radial-gradient(ellipse at 10% 0%, #fff 0%, var(--bg) 50%, #e9efe9 100%);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
 
     .page {
@@ -115,11 +116,12 @@
 
     .hero h1 {
       font-family: "Playfair Display", "Fraunces", serif;
-      font-size: 2.8rem;
+      font-size: clamp(1.9rem, 6vw, 2.8rem);
       font-weight: 500;
       letter-spacing: -0.01em;
       line-height: 1.1;
       margin-bottom: 8px;
+      word-break: break-word;
     }
 
     .subtitle {
@@ -419,18 +421,40 @@
           "name"
           "photo"
           "text";
-        padding: 32px 24px;
+        padding: 28px 20px;
         text-align: center;
       }
-      .hero-photo { margin: 16px auto; width: 170px; height: 220px; border-radius: 20px; }
-      .press-link { top: 14px; right: 16px; font-size: 0.8rem; }
-      .hero h1 { font-size: 2.2rem; }
-      .why { text-align: left; }
-      .links { justify-content: center; }
+      .hero-photo {
+        margin: 16px auto;
+        width: clamp(150px, 50vw, 200px);
+        height: clamp(195px, 65vw, 260px);
+        border-radius: 20px;
+      }
+      .press-link {
+        top: 12px;
+        right: 14px;
+        font-size: 0.75rem;
+        padding: 4px 10px;
+      }
+      .subtitle { font-size: 1rem; }
+      .credential-note { font-size: 0.78rem; }
+      .pitch { font-size: 0.98rem; }
+      .why { text-align: left; font-size: 0.95rem; }
+      .links { justify-content: center; gap: 8px; }
+      .links a { padding: 7px 14px; font-size: 0.85rem; }
       .sections { grid-template-columns: 1fr; }
       .connect-grid { grid-template-columns: 1fr; }
       .career-item .title-row { flex-direction: column; gap: 2px; }
-      .page { padding: 24px 16px 60px; }
+      .page { padding: 20px 14px 60px; }
+      .section { padding: 28px 22px; }
+      .section h2 { font-size: 1.4rem; }
+    }
+
+    @media (max-width: 380px) {
+      .hero { padding: 24px 16px; }
+      .press-link { font-size: 0.7rem; top: 10px; right: 10px; padding: 3px 8px; }
+      .section { padding: 22px 18px; }
+      .links a { padding: 6px 12px; font-size: 0.82rem; }
     }
 
     /* ---- Print ---- */
