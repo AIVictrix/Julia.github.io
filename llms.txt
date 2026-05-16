@@ -31,6 +31,14 @@ Julia Persson is a Copenhagen-based digital health founder and policy architect 
 - LinkedIn: https://www.linkedin.com/in/julia-persson-digital-transformation/
 - Location: Copenhagen, Denmark
 
+## Speaker topics
+
+- Perimenopause and menopause as a prevention window — the most underused prevention window in modern medicine.
+- The Nordic Charter for Women's Health 2040: closing the 17-year research-to-care gap.
+- AI in women's health: trust, bias, and what we're building for a generation.
+- Building AI-native healthtech as a non-traditional founder.
+- Women's health as economic opportunity: from payer to partner.
+
 ## Areas of expertise
 
 Women's health, chronic disease prevention, AI-powered clinical decision support, precision health, digital health innovation, perimenopause and menopause, European Health Data Space, Nordic health policy, multi-stakeholder coordination, MDR medical device regulation.
