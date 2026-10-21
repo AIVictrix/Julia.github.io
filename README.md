@@ -1,10 +1,10 @@
 # Julia Persson — Professional Profile
 
-**Live site:** [aivictrix.github.io/Julia.github.io](https://aivictrix.github.io/Julia.github.io/)
+**Live site:** [juliapersson.com](https://juliapersson.com/)
 
 ## About
 
-Founder & CEO of [Scita Health](https://scita.health), building AI-powered clinical decision support for women navigating perimenopause and menopause. Founding Architect of the [Nordic Charter for Women's Health 2040](https://womenshealth2040.org), published in The Lancet.
+Founder & CEO of [Scita Health](https://scita.health), building AI-powered clinical decision support for women navigating perimenopause and menopause. Founding Architect of the [Nordic Charter for Women's Health 2040](https://womenshealth2040.org), whose methodology is published in The Lancet.
 
 20+ years leading digital transformation across regulated sectors (Accenture, AWS, Swedbank, A.P. Moller-Maersk), now applying that to precision prevention in women's health.
 
@@ -12,7 +12,7 @@ Founder & CEO of [Scita Health](https://scita.health), building AI-powered clini
 
 - julia@scita.health
 - julia@womenshealth2040.org
-- [LinkedIn](https://www.linkedin.com/in/julia-persson-digital-transformation/)
+- [LinkedIn](https://www.linkedin.com/in/juliapersson-health/)
 
 ## Site
 
