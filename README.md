@@ -4,7 +4,7 @@
 
 ## About
 
-Founder & CEO of [Scita Health](https://scita.health), building AI-powered clinical decision support for women navigating perimenopause and menopause. Founding Architect of the [Nordic Charter for Women's Health 2040](https://womenshealth2040.org), whose methodology is published in The Lancet.
+Founder & CEO of [Scita Health](https://scita.health), developing clinical decision support for women through perimenopause and menopause, where fixed clinical rules decide and AI explains them in plain language. Founding Architect of the [Nordic Charter for Women's Health 2040](https://womenshealth2040.org), whose methodology is published in The Lancet.
 
 20+ years leading digital transformation across regulated sectors (Accenture, AWS, Swedbank, A.P. Moller-Maersk), now applying that to precision prevention in women's health.
 
